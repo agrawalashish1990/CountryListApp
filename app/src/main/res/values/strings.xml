@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Country App</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="country_province_list">%s\'s Provinces</string>
+    <string name="no_data_found">No data found.</string>
+    <string name="plz_try_again">OOps something went wrong. Please try again or later.</string>
+    <string name="image_url">https://github.com/hjnilsson/country-flags/tree/master/png250px/%s.png</string>
+    <string name="loading">Fetching Info...</string>
+    <string name="empty_province_list">No province available. </string>
+    <string name="no_internet_connection">No internet connection available. </string>
+    <string name="msg_show_data_from_cache">Showing data from cache</string>
+    <string name="data_province">%s (%s)</string>
+    <string name="data_country">%s (+%s)</string>
+    <string name="retry">Retry</string>
+</resources>

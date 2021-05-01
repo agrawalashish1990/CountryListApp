@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_16">
+
+
+    <ImageView
+        android:id="@+id/ivFlag"
+        android:layout_width="@dimen/image_size_flag"
+        android:layout_height="@dimen/image_size_flag"
+        android:layout_margin="@dimen/margin_16"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivFlag"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/ivFlag"
+        android:gravity="center_vertical|left"
+        android:textSize="@dimen/text_size_20"
+        android:textColor="@android:color/black"
+        tools:text="India" />
+
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_alignLeft="@+id/tvName"
+        android:layout_toLeftOf="@+id/ivFlag"
+        android:gravity="left"
+        android:textSize="@dimen/text_size_15"
+        android:textColor="@android:color/black"
+        tools:text="IN (+91)" />
+
+
+
+</RelativeLayout>
