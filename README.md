@@ -28,9 +28,10 @@ I used below things to implement app -
 
 
 
-![Splash](/screenshots/3.png "Splash")
-![CountryList](/screenshots/1.png "Country List")
-![Province List](/screenshots/2.png "Province List")
+
+<img src="/screenshots/1.png" alt="CountryList" style="max-width:100%;">
+<img src="/screenshots/2.png" alt="ProvinceList" style="max-width:100%;">
+<img src="/screenshots/3.png" alt="Splash" style="max-width:100%;">
 
 
 
