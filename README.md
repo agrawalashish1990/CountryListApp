@@ -27,8 +27,8 @@ I used below things to implement app -
 
 
 
-![Splash](screenshots/3.png "Splash")
-![CountryList](screenshots/1.png "Country List")
-![Province List](screenshots/2.png "Province List")
+![Splash](/screenshots/3.png "Splash")
+![CountryList](/screenshots/1.png "Country List")
+![Province List](/screenshots/2.png "Province List")
 
 
