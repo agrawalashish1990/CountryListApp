@@ -18,9 +18,9 @@ object ApiClient {
     var lock = Any()
 
     fun getClient(): ApiInterface {
-        if (apiInterface == null) {
+        if (!::apiInterface.isInitialized) {
             synchronized(lock) {
-                if (apiInterface == null) {
+                if (!::apiInterface.isInitialized) {
                     initClient()
                 }
             }
